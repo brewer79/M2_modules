@@ -1,0 +1,12 @@
+<?php /** @var $block Speroteck\Helloworld\Block\Tabulator */ ?>
+
+<div class="block" id="helloworld" data-bind="scope:'helloworld'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+    {
+        "#helloworld": {
+            "Magento_Ui/js/core/app": <?php /* @escapeNotVerified */ echo $block->getJsLayout();?>
+        }
+    }
+    </script>
+</div>

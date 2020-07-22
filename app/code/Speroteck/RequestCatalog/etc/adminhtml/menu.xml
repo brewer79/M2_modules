@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Speroteck_RequestCatalog::request" title="Speroteck Request Catalog" module="Speroteck_RequestCatalog" action="requestcatalog/request/index" parent="Magento_Catalog::inventory" sortOrder="30" dependsOnModule="Speroteck_RequestCatalog" resource="Speroteck_RequestCatalog::requestcatalog"/>
+    </menu>
+</config>
+
